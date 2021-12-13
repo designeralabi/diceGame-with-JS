@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@0;1&display=swap');
+
+
+body{
+    background: rebeccapurple;
+}
+
+.wrapper{
+    margin: 8% auto;
+    width: 100%;
+    max-width: 800px;
+}
+
+h1{
+    color: white;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 4em;
+    margin: 0;
+}
+
+.dice-wrapper{
+    display: flex;
+    justify-content: center;
+
+}
+
+.dice-one,.dice-two{
+    margin: 25px;
+}
+
+h4{
+    color: white;
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+#play-one{
+    color: aquamarine;
+}
+
+#play-two{
+    color: greenyellow;
+}
+
+img{
+    width: 300px;
+    height: auto;
+    margin-top: 30px;
+}
+
