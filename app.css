@@ -53,3 +53,31 @@ img{
     margin-top: 30px;
 }
 
+
+@media screen and (max-width: 475px) {
+
+    .wrapper{
+        margin: 25% auto;
+    }
+
+    h1{
+        font-size: 2em;
+    }
+
+    .dice-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dice-one,.dice-two{
+        margin: 15px;
+    }
+
+    img{
+        width: 200px;
+        height: auto;
+        margin-top: 10px;
+    }
+    
+}
