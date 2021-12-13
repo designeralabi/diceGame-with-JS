@@ -26,20 +26,20 @@ image2.setAttribute('src', dice2);
 
 // this fires when the player1 value is greater than player2
 if (dice > dice2){
-    console.log('Player1 Wwwwins');
+    // console.log('Player1 Wwwwins');
     heading.textContent = 'Player1 Wins';
     heading.style.color = 'aquamarine';
 }
 
 // this fires when the player2 value is greater than player1
 else if (dice2 > dice ){
-    console.log('Player 2wins');
+    // console.log('Player 2wins');
     heading.textContent = 'Player2 Wins';
     heading.style.color = 'greenyellow';
 }
 // hence if they are not equal then prints draw
 else {
-    console.log('You Draw');
+    // console.log('You Draw');
     heading.textContent = 'Your Draw';
     heading.style.color = "yellow";
 }
